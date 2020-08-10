@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7A93458-63B5-6C84-100A-CFD1FFD0BB53" name="POSITION_HISTORY">
+<createdBy>User</createdBy>
+<createdTime>2019-11-29 16:44:18 UTC</createdTime>
+<ownerDesignName>UU</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="position_history_id" id="143B8607-75E4-2B67-C47D-F8B2065631FB">
+<createdBy>User</createdBy>
+<createdTime>2019-11-29 16:44:27 UTC</createdTime>
+<ownerDesignName>UU</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="start_date" id="DFF45F4F-6745-4891-C02D-B48464EED44E">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 07:28:33 UTC</createdTime>
+<ownerDesignName>UU</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end_date" id="56C16175-0659-80F4-1711-DF446B45C967">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 07:29:40 UTC</createdTime>
+<ownerDesignName>UU</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="position_id" id="D2F441B1-78C9-BE61-374C-B5A258FF1DBC">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 07:55:32 UTC</createdTime>
+<generatorID>27EF2C29-5012-34A8-6A9B-C9DA52CE7E97</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<referedAttribute>39B19ED0-B29A-6A2C-2F24-15D0585CA1DF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="employee_id" id="34E3266B-FB7D-EB14-A2D5-974BBD91D154">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 07:55:47 UTC</createdTime>
+<generatorID>2CAEA922-DD18-3276-5D3D-64C3DC5BFDDF</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<referedAttribute>F8E1BF10-EE37-9DB9-6F99-0D42CD151F7C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="57D853D8-D9F3-5F71-E4D5-AEF7AC86D1E5" name="JOB_HISTORY PK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-29 16:44:44 UTC</createdTime>
+<ownerDesignName>UU</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>143B8607-75E4-2B67-C47D-F8B2065631FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

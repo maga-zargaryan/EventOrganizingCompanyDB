@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28D39649-C361-D285-6653-E91385673381" name="GUEST">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>4EF9604B-62A2-D893-2CB0-545FF8C0AB45</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="guest_id" id="B098182C-05EF-4D92-C4A2-21695B794F4A">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>3AA3A505-6C01-FD3C-EFF9-BC80EEE523F6</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="3D62AE26-7A92-6CED-8174-205B6CB1BF17">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>664FE698-1CEC-C276-F499-10E7000A4EE1</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="5E53F7F2-9EA5-A315-C4AE-BCFC15CF3CC5">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>AA8A2ECA-78F5-EA44-2FCF-EBBAD815E1BA</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_number" id="E88D9419-21FE-2453-2755-1629E2ED2AE7">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>69CA3857-8354-E363-3874-EA845F8466C6</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="F14A3C8B-2583-3B0A-A02D-32EEDBF2A48B">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>E9D49CDF-AC4B-9CCF-D886-365F506F73FE</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GUEST_ADDRESS_id" id="E8C72992-4462-2937-A59E-8F96637274D8">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>0032929F-F87B-CE5E-52A1-DAE2B266F9C3</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA9C3460-C803-C823-3B2F-DF36B11B1E62" referredColumn="E68C0E2C-5EBE-ECC1-CEAB-1B57F40F0DDA"/>
+</associations>
+</Column>
+<Column name="EVENT_id" id="F9729C79-42DA-7A23-7524-DA831D525F6C">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 15:42:03 UTC</createdTime>
+<generatorID>D098E664-84DF-94AA-DF37-DC7DDEE165FE</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D95C0631-EA9C-1D7A-D570-D2054761C17D" referredColumn="ECAB3CAB-A956-F27F-413F-2C2EED06832E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46F11C3A-FCD4-FDF9-A4FE-A614C1801760" name="GUEST_PK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>2EF6D836-0706-6C4F-70C1-4D13798F0ADA</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B098182C-05EF-4D92-C4A2-21695B794F4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87E30A66-A96E-EC05-2354-C4BE3F0E03D3" name="GUEST_GUEST_ADDRESS_FK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>58DB5813-BDE1-44AF-9080-7224638A070D</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8C72992-4462-2937-A59E-8F96637274D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B79C91A3-6F0B-69E5-182C-175E930BC601" name="GUEST_EVENT_FK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 15:42:03 UTC</createdTime>
+<generatorID>03098CFE-F06D-4B8C-C5E8-544D1DCE5FA1</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9729C79-42DA-7A23-7524-DA831D525F6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

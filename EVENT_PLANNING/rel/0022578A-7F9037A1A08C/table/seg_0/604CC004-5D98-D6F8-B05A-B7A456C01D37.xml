@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="604CC004-5D98-D6F8-B05A-B7A456C01D37" name="ENTERTAINMENT_SERVICE">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>3C20C83E-158C-8BA1-F647-95A8325419B0</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="service_id" id="F14D59AF-41A3-6373-5439-8A68D3A76A33">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>AB04229D-293C-2CD6-477E-72C062C10649</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="747FEBE3-E430-BBD9-A080-B5249DCEEAC2" referredColumn="78F82D66-43DC-161E-68CE-E21296DFD814"/>
+</associations>
+</Column>
+<Column name="description" id="691C276B-F57B-FF6B-8463-F524EEB81689">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>686FBE37-79A4-9B2E-83BE-22BACC25C1BA</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="performer" id="C1F66FBA-B1A8-568C-1257-0901798E62BF">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>FCE30805-F3D7-A31F-E34F-F36A1A3E2E3D</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36E7FF33-5314-ACD1-CCF6-710D4FC0ED36" name="ENTERTAINMENT_SERVICE_PK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>89C755D0-08CC-7F29-2AE3-1517A3432B8D</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F14D59AF-41A3-6373-5439-8A68D3A76A33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B64663C8-1F9A-10A1-5C55-EEE289B7D6B7" name="ENTERTAIN_SERVICE_FK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>808AF85B-2172-DB6F-3F12-4D122FAC7C39</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F14D59AF-41A3-6373-5439-8A68D3A76A33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

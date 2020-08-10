@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMP_BRANCH" directorySegmentName="seg_0" id="B34060C6-F769-63EB-A5DA-A142733D6B0C">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:59:46 UTC</createdTime>
+<ownerDesignName>UU</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<targetPk>006E07EA-435C-862B-EBDE-0D62363DA7E6</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>63ABD02C-49DD-BD8A-D2D4-BF54191443E3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>11FA6B70-75BF-A9C8-840D-65041C36DB28</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

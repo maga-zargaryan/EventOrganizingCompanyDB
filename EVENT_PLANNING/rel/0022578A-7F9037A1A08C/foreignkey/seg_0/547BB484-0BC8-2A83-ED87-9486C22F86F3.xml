@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="547BB484-0BC8-2A83-ED87-9486C22F86F3" containerWithKeyObject="73BA2D1B-CC47-4293-546E-3F899C3A6307" localFKIndex="19C232DA-51AA-839F-46A5-BBF981DF9AC9" name="MUSIC_SERVICE_SERVICE_FK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>960E3310-B7BF-0657-0608-866B3D05CF7E</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<referredTableLongName>SERVICE</referredTableLongName>
+<arc>2D1753F4-06F8-A489-BDB6-176A253A6757</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E43DA677-E5FD-483F-26A4-D2E5BFD05BEC</referredTableID>
+<keyObject>763ABC2B-9671-B665-45DE-B96FEF0D5BD5</keyObject>
+<referredKeyID>763ABC2B-9671-B665-45DE-B96FEF0D5BD5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>service_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>music</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

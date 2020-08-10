@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E86A1CD-D272-9AC8-64BD-A6D5FE13C919" name="POSITION_HISTORY">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>F7A93458-63B5-6C84-100A-CFD1FFD0BB53</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="position_history_id" id="BB80F21A-C462-7BB9-356D-197978E5FEC9">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>143B8607-75E4-2B67-C47D-F8B2065631FB</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_date" id="4ED6D77C-5189-CDE3-E844-B34207763560">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>DFF45F4F-6745-4891-C02D-B48464EED44E</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date" id="724FAE5A-5C24-32A0-AD4F-4413D45BCC3F">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>56C16175-0659-80F4-1711-DF446B45C967</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSITION_id" id="FAE2F41C-DB58-4FA9-A153-45D2A5584012">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>D2F441B1-78C9-BE61-374C-B5A258FF1DBC</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A343AAB-4EE1-658E-2693-FB5900A19EC9" referredColumn="883B97CF-95C8-5580-5623-B0098EF78975"/>
+</associations>
+</Column>
+<Column name="EMPLOYEE_id" id="8B8691E0-E83A-3901-F618-8B0F5F9E8306">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>34E3266B-FB7D-EB14-A2D5-974BBD91D154</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3885D5D4-689C-13DC-D853-668277658AC9" referredColumn="85C21C96-2A5A-CE12-4A37-B5C1AD1366E4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4283D97-651D-1590-DC81-2D6217158671" name="POSITION_HISTORY_PK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>57D853D8-D9F3-5F71-E4D5-AEF7AC86D1E5</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB80F21A-C462-7BB9-356D-197978E5FEC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86BCCBB0-36A5-6F72-CB06-E77997BB6605" name="POSITION_HISTORY_POSITION_FK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>27EF2C29-5012-34A8-6A9B-C9DA52CE7E97</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAE2F41C-DB58-4FA9-A153-45D2A5584012"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E78366E9-D785-1DA6-606D-67EDD5EAC396" name="POSITION_HISTORY_EMPLOYEE_FK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>2CAEA922-DD18-3276-5D3D-64C3DC5BFDDF</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B8691E0-E83A-3901-F618-8B0F5F9E8306"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

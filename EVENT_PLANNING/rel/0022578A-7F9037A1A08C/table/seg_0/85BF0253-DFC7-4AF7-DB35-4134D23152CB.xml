@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85BF0253-DFC7-4AF7-DB35-4134D23152CB" name="CUSTOMER_INDIVIDUAL">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>41D570E7-503B-483E-101B-837C94BC0A3F</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="first_name" id="B1BD416C-54F8-5262-42DA-F7DF107FE783">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>318C8D00-C001-95C5-FE3E-C00FCC4E584A</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="22BFAC96-33C5-390D-EE62-364EC3258A0D">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>6738031C-1176-42F1-941F-7B5DCB5BC220</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_id" id="A45D502D-005B-2EC3-8BD1-E8C3E3D8DD22">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>0D38D96A-27FE-E25C-2CAE-34A6BF692493</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9472F87E-F916-A965-EB4C-5D11364ED220" referredColumn="F1002D2C-4F68-DDB6-4391-24CB5695EFC7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="075E9B34-7D0D-2430-1121-1E3ADE2F47CD" name="CUSTOMER_INDIVIDUAL_PK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>E2AFDA98-13DE-F150-BFD8-CD9FD0FF7553</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A45D502D-005B-2EC3-8BD1-E8C3E3D8DD22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CABED6C5-D360-6A56-0FA2-8B63993FCE8B" name="CUSTOMER_INDIVIDUAL__IDX">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<ownerDesignName>UU</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9A0C91A9-5DC0-570F-48E3-607A485D58A9</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A45D502D-005B-2EC3-8BD1-E8C3E3D8DD22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A6BB37E-69F6-A195-5DF4-C890E07D2FC6" name="CUST_INDIV_CUSTOMER_FK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>9A0C91A9-5DC0-570F-48E3-607A485D58A9</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A45D502D-005B-2EC3-8BD1-E8C3E3D8DD22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

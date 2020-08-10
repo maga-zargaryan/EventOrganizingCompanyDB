@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2789A07C-0464-E88B-2935-EB2D9C7F656D" name="PAYMENT_TYPE">
+<createdBy>User</createdBy>
+<createdTime>2019-11-29 16:50:10 UTC</createdTime>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="payment_type_id" id="4B7BA73F-FDAE-B8E3-1D91-D64B200CC9C7">
+<createdBy>User</createdBy>
+<createdTime>2019-11-29 16:50:45 UTC</createdTime>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="payment_type_name" id="086E7F9B-D736-9419-6CC4-82BCC978A418">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 10:06:45 UTC</createdTime>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D93CAAFB-56DB-D169-B3F2-AC592D6154AF" name="PAYMENT_TYPE PK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-29 16:50:57 UTC</createdTime>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4B7BA73F-FDAE-B8E3-1D91-D64B200CC9C7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

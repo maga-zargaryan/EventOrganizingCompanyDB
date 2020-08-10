@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3A1DF1A-DAEA-8EA5-1707-4D6C93A3A2D2" name="VENUE_SERVICE">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>B2DB7F45-4A1C-D487-8BD1-09F83DB19CB9</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="service_id" id="597828B1-D5C6-FE79-0453-374E87A120E5">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>AB04229D-293C-2CD6-477E-72C062C10649</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="897C9924-8B05-3A48-1F76-E87FDB7AE37D" referredColumn="78F82D66-43DC-161E-68CE-E21296DFD814"/>
+</associations>
+</Column>
+<Column name="square_meters" id="F1275FAA-D7DE-3148-2A4A-33136C3A1D12">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>85E50068-42A9-2191-9CCC-9C115B2E0601</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,*,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="design_included" id="DFABEE64-375B-4BF3-5266-D2F9A3716833">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>C19F1783-8196-91CD-1985-9CC96F420EF3</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="max_guest_capacity" id="D3D118E4-ADBE-C34C-FEA9-B4EA8E7AE6D7">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>B600BBCB-576D-513E-EF49-27F0C85B9ADD</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="min_guest_capacity" id="6D4C986A-AC4B-4848-DD78-4DD10196229C">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>DB1F66FC-283F-B106-A342-ACBA9A1C64C1</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="crew_included" id="E22D8A95-84FE-E00B-989E-62D37EB2A19C">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>9E5F6C14-9044-15E1-A9D9-D5BF604AF184</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64D32414-8D29-3081-1548-A4D89D682527" name="VENUE_SERVICE_PK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>89C755D0-08CC-7F29-2AE3-1517A3432B8D</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="597828B1-D5C6-FE79-0453-374E87A120E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1DFD756-44F5-ED77-68C7-20B3926F091F" name="VENUE_SERVICE_SERVICE_FK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>A6DF9651-A856-2308-F85E-D6EBDA448E86</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="597828B1-D5C6-FE79-0453-374E87A120E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

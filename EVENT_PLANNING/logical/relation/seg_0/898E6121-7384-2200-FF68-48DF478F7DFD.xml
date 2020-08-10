@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EVENT_IS" directorySegmentName="seg_0" id="898E6121-7384-2200-FF68-48DF478F7DFD">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 10:09:08 UTC</createdTime>
+<ownerDesignName>UU</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<sourcePk>C18C8272-B61A-650D-DC01-5800031D620F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>425D16FB-0BC3-8CB9-3AC1-5BC6EDD01BEF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>95DF27C8-5756-12CA-CEE2-9EE3F3C7D10D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

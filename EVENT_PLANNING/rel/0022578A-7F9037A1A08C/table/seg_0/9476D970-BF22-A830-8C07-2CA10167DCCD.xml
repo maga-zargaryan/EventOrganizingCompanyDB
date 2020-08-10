@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9476D970-BF22-A830-8C07-2CA10167DCCD" name="FOOD_SERVICE">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>D65BE167-C5DA-AAF6-5383-386EC593ECC2</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="service_id" id="EA99B8C4-6260-5620-DB0A-553A9CFED51B">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>AB04229D-293C-2CD6-477E-72C062C10649</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41ABA0CA-E610-9DF3-69CD-4A3B6D056EBC" referredColumn="78F82D66-43DC-161E-68CE-E21296DFD814"/>
+</associations>
+</Column>
+<Column name="vegetarian_provided" id="C5CFE96A-2C0C-2C9F-FF60-74480811083F">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>B1E75AF7-58D8-FCBE-B04C-EA8440880BE4</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vegan_provided" id="2D2E5D39-C253-1FC7-A117-D51F1B73FB48">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>886FC95D-E29F-1A64-E2E7-05E4F892C80E</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4FEB089A-A40E-1A49-398A-705A968A4B5D" name="FOOD_SERVICE_PK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>89C755D0-08CC-7F29-2AE3-1517A3432B8D</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA99B8C4-6260-5620-DB0A-553A9CFED51B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0188067-D8AD-E770-53AF-D88ECE4E14D8" name="FOOD_SERVICE_SERVICE_FK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>92112455-9A3E-B74E-113C-B851117346B5</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA99B8C4-6260-5620-DB0A-553A9CFED51B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

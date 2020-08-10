@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PAYMENT_TYPE" directorySegmentName="seg_0" id="E4931509-87D5-E6D3-A466-265E7B47134C">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 07:57:48 UTC</createdTime>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<sourcePk>D93CAAFB-56DB-D169-B3F2-AC592D6154AF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2789A07C-0464-E88B-2935-EB2D9C7F656D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DD6F6B32-A33B-5757-C5D1-272B5A03F068</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

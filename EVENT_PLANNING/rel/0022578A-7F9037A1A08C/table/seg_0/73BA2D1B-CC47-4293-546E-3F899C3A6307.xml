@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73BA2D1B-CC47-4293-546E-3F899C3A6307" name="MUSIC_SERVICE">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>F3C1DD9F-5258-EA7B-DCEF-A8EC61413B1D</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="service_id" id="91AAB0A7-6BB0-B5C9-5A83-390151D00B1C">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>AB04229D-293C-2CD6-477E-72C062C10649</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="547BB484-0BC8-2A83-ED87-9486C22F86F3" referredColumn="78F82D66-43DC-161E-68CE-E21296DFD814"/>
+</associations>
+</Column>
+<Column name="live_music_provided" id="70DE590D-CB7B-8520-881F-4C5BCD8E0529">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>E073DB45-35FC-BABA-71E2-330D202686A6</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="equipment_included" id="D20B322C-D8A9-3894-B8CF-AD2928A8EEC9">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>74A91B29-F387-54C8-BBA3-6FF31491FF2F</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78929378-54E3-C4B2-43FE-C3AD7BA265E9" name="MUSIC_SERVICE_PK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>89C755D0-08CC-7F29-2AE3-1517A3432B8D</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91AAB0A7-6BB0-B5C9-5A83-390151D00B1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19C232DA-51AA-839F-46A5-BBF981DF9AC9" name="MUSIC_SERVICE_SERVICE_FK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>960E3310-B7BF-0657-0608-866B3D05CF7E</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91AAB0A7-6BB0-B5C9-5A83-390151D00B1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

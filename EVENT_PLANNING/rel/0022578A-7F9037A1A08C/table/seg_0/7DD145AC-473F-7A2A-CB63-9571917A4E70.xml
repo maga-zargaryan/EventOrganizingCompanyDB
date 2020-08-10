@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DD145AC-473F-7A2A-CB63-9571917A4E70" name="EVENT_ORDER">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>DD6F6B32-A33B-5757-C5D1-272B5A03F068</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<ordsAlias>order</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="event_order_id" id="82CFF73B-1F5B-B52F-B220-C82F4C1A3E53">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>57899D25-8AED-97EB-84D5-FA0901BACEDA</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYMENT_TYPE_id" id="177BA69D-A6FF-FB18-E749-A8269E510687">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>0D7F4C4C-D0B4-9C1C-7F63-467D75037044</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DF6CC44-9B50-A018-8A98-D171C4B9FD8D" referredColumn="30DE05E0-4AD8-B71C-DBF2-B042A3CA0B57"/>
+</associations>
+</Column>
+<Column name="order_date" id="F458E3E5-BCA5-FF22-69B0-FF9A83C031DD">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>3A2C2D5F-5204-E78A-C235-B36B9DC6170C</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="planned_price" id="C8B1392F-A3D8-39F2-37E3-1F4D50167ECD">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>CACAEEBB-4446-BB43-AD96-1027D8ACB065</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="actual_price" id="803AEE4C-1E51-0E44-D96A-AC1BE7BBCA0B">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>9266DE34-9D5A-C3C3-CF20-B245F18B9ECB</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EVENT_event_id" id="339FA639-42A1-2FAD-B511-C2DEF31C0BFD">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>612B4EDD-1E71-DB73-3631-3114B1D0CC14</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D25AD2BA-0A14-3EB7-A5B5-D7E783C49A4F" referredColumn="ECAB3CAB-A956-F27F-413F-2C2EED06832E"/>
+</associations>
+</Column>
+<Column name="CUSTOMER_id" id="766A78E8-EF0B-F2C7-6171-C6A133BB7A3E">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>8CA1E42C-AAF8-13E1-2BD4-E86D705681C4</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2448E116-95CD-CB5A-CA01-44F773EBEA20" referredColumn="F1002D2C-4F68-DDB6-4391-24CB5695EFC7"/>
+</associations>
+</Column>
+<Column name="billing_address" id="0D180B1B-3617-BECB-2827-ECCC03D4EF95">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>C8669172-B260-521D-0AB4-3792AA69D531</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19ECCD3E-A7CA-8C9D-DE70-0197C0BB1380" name="EVENT_ORDER_PK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>EC6B9126-0272-E8D4-A06D-5B6953D3089B</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82CFF73B-1F5B-B52F-B220-C82F4C1A3E53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDA34D65-9567-F8DC-6DC1-23BDA8B63365" name="ORDER_CUSTOMER_FK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>0AFC3201-E173-F56E-09F1-48A366DDFB2F</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="766A78E8-EF0B-F2C7-6171-C6A133BB7A3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3C3A7CC-3308-B5CB-C2FD-04B066CB8B59" name="ORDER_PAYMENT_TYPE_FK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>E4931509-87D5-E6D3-A466-265E7B47134C</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="177BA69D-A6FF-FB18-E749-A8269E510687"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE7F5BD6-BF18-9E79-C2AF-200C50C33D95" name="ORDER_EVENT_FK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 15:53:46 UTC</createdTime>
+<generatorID>6FBCA038-E2BE-BEAD-2448-1D2B18033B4E</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="339FA639-42A1-2FAD-B511-C2DEF31C0BFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

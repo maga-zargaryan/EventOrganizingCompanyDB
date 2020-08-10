@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="UNIT_EVENT_EQUIPMENT" directorySegmentName="seg_0" id="86F44122-2805-061C-E90B-EF61118B63E1">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 08:10:15 UTC</createdTime>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>01BA9837-04D6-935D-AFDC-3FCB6F987FA0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>75C64ABA-15C6-02A7-769C-46E309F1E315</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="equipment_count" id="D4813FDE-430E-9CEA-3575-70A0E2C8932A">
+<createdBy>ADStudent</createdBy>
+<createdTime>2019-12-01 07:00:43 UTC</createdTime>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

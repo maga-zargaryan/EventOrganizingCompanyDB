@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94A6E6F0-62E0-0630-D8F7-ED2740FA2234" name="EQUIPMENT_INVENTORY">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>BFB79821-37C7-A986-A8C6-BAD75ED6325E</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INVENTORY_id" id="0955595E-7513-98C5-D997-0AE272DB860F">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>C04C3154-41EA-9EF3-373E-00EFE919C6BE</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC060BE4-1988-4082-63A9-50EF90764D1D" referredColumn="5763764F-1915-AAF1-3EBF-4D5882A745C4"/>
+</associations>
+</Column>
+<Column name="EQUIPMENT_id" id="24B58BED-5B59-667B-5B1C-96A935835815">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>B136B96A-6878-6420-4EEE-A3ACCB24ACEF</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3334153C-6C41-F1F3-EFEA-CEB19E810956" referredColumn="DADAA2CA-05DD-8748-8EC9-589CBEA135DD"/>
+</associations>
+</Column>
+<Column name="count" id="897217ED-D7A1-FF39-C47E-54A92862FD1A">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>FC08746B-74E8-DD66-BADE-D325B2945F55</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3777DF22-C1B5-C7CE-EE76-613A863C5770" name="EI_INVENTORY_FK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>EB9D411E-0477-1C34-8B7E-0E8EC30EF011</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0955595E-7513-98C5-D997-0AE272DB860F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21FBBECB-8585-DC5C-8F45-C4F6476AF891" name="EI_EQUIPMENT_FK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>137964A1-95F9-D30C-9DEC-885AEFB818DF</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24B58BED-5B59-667B-5B1C-96A935835815"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41D570E7-503B-483E-101B-837C94BC0A3F" name="CUSTOMER_INDIVIDUAL">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 06:31:54 UTC</createdTime>
+<ownerDesignName>UU</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="customer_id" id="EB80776F-E174-F9F7-5300-B99F035A98A4">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 06:32:29 UTC</createdTime>
+<ownerDesignName>UU</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="318C8D00-C001-95C5-FE3E-C00FCC4E584A">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 13:28:15 UTC</createdTime>
+<ownerDesignName>UU</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="6738031C-1176-42F1-941F-7B5DCB5BC220">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 13:28:41 UTC</createdTime>
+<ownerDesignName>UU</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="customer_id1" id="0D38D96A-27FE-E25C-2CAE-34A6BF692493">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 13:33:39 UTC</createdTime>
+<generatorID>9A0C91A9-5DC0-570F-48E3-607A485D58A9</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<referedAttribute>3951FE91-FB80-AA8E-5EA4-89F218492D13</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E2AFDA98-13DE-F150-BFD8-CD9FD0FF7553" name="CUSTOMER_INDIVIDUAL PK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 06:32:55 UTC</createdTime>
+<ownerDesignName>UU</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EB80776F-E174-F9F7-5300-B99F035A98A4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

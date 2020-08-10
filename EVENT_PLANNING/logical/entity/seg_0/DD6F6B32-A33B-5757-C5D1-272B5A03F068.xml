@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DD6F6B32-A33B-5757-C5D1-272B5A03F068" name="EVENT_ORDER">
+<createdBy>User</createdBy>
+<createdTime>2019-11-29 16:47:21 UTC</createdTime>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="event_order_id" id="57899D25-8AED-97EB-84D5-FA0901BACEDA">
+<createdBy>User</createdBy>
+<createdTime>2019-11-29 16:47:33 UTC</createdTime>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="payment_type_id" id="0D7F4C4C-D0B4-9C1C-7F63-467D75037044">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 07:57:48 UTC</createdTime>
+<generatorID>E4931509-87D5-E6D3-A466-265E7B47134C</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<referedAttribute>4B7BA73F-FDAE-B8E3-1D91-D64B200CC9C7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="order_date" id="3A2C2D5F-5204-E78A-C235-B36B9DC6170C">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 09:58:29 UTC</createdTime>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="planned_price" id="CACAEEBB-4446-BB43-AD96-1027D8ACB065">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 09:59:02 UTC</createdTime>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="actual_price" id="9266DE34-9D5A-C3C3-CF20-B245F18B9ECB">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 13:24:54 UTC</createdTime>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="event_id" id="612B4EDD-1E71-DB73-3631-3114B1D0CC14">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 13:07:45 UTC</createdTime>
+<generatorID>6FBCA038-E2BE-BEAD-2448-1D2B18033B4E</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<referedAttribute>52FAA2A7-CB07-0DF3-8EBA-08CCDC0FCB1F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="customer_id" id="8CA1E42C-AAF8-13E1-2BD4-E86D705681C4">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 13:25:43 UTC</createdTime>
+<generatorID>0AFC3201-E173-F56E-09F1-48A366DDFB2F</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<referedAttribute>3951FE91-FB80-AA8E-5EA4-89F218492D13</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="billing_address" id="C8669172-B260-521D-0AB4-3792AA69D531">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 13:31:09 UTC</createdTime>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EC6B9126-0272-E8D4-A06D-5B6953D3089B" name="ORDER PK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-29 16:47:47 UTC</createdTime>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>57899D25-8AED-97EB-84D5-FA0901BACEDA</newElementsIDs>
+<usedAttributes>
+<attributeRef>57899D25-8AED-97EB-84D5-FA0901BACEDA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

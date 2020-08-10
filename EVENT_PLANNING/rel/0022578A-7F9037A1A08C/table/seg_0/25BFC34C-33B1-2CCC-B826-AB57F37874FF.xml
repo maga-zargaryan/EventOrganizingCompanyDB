@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25BFC34C-33B1-2CCC-B826-AB57F37874FF" name="GENERIC_SERVICE">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 15:42:03 UTC</createdTime>
+<generatorID>240CB928-50E7-8EDE-7ED0-00F138CD333A</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="service_id" id="59475B66-BCA3-5801-2E83-5AF1AA4DB025">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 15:42:03 UTC</createdTime>
+<generatorID>AB04229D-293C-2CD6-477E-72C062C10649</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="235C5500-ACA1-5FD8-2466-612C22BB97E4" referredColumn="78F82D66-43DC-161E-68CE-E21296DFD814"/>
+</associations>
+</Column>
+<Column name="description" id="06ABE119-9886-BDB6-0418-DBAA9012C006">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 15:42:03 UTC</createdTime>
+<generatorID>2F297526-8EFA-D7A3-1E6F-6F523DF4B573</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E0168C6-5877-0DEE-90D7-F4C5C3B05B7E" name="GENERIC_SERVICE_PK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 15:42:03 UTC</createdTime>
+<generatorID>89C755D0-08CC-7F29-2AE3-1517A3432B8D</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59475B66-BCA3-5801-2E83-5AF1AA4DB025"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9678113-28C4-0434-2893-9E4CE9F60C65" name="GENERIC_SERVICE_SERVICE_FK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 15:42:03 UTC</createdTime>
+<generatorID>FB51F7CF-EAE8-81BD-04CF-FD9AC35AC781</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59475B66-BCA3-5801-2E83-5AF1AA4DB025"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1D5F84AB-032D-451E-B1DD-4BA855337283" name="INVENTORY">
+<createdBy>User</createdBy>
+<createdTime>2019-11-29 16:34:47 UTC</createdTime>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="inventory_id" id="A623EEF6-2470-D359-E4AD-CF5C9F68B685">
+<createdBy>User</createdBy>
+<createdTime>2019-11-29 16:34:58 UTC</createdTime>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="inventory_address" id="9E44883D-6D03-D45E-342F-A0F359003E42">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 11:48:42 UTC</createdTime>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="032EA507-BCD8-7436-10A7-F68013B25584" name="INVENTORY PK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-29 16:35:22 UTC</createdTime>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A623EEF6-2470-D359-E4AD-CF5C9F68B685</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

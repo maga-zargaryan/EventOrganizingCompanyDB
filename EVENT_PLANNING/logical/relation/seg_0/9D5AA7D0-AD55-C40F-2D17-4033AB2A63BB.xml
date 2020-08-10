@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EVENT_VOLUNTEER" directorySegmentName="seg_0" id="9D5AA7D0-AD55-C40F-2D17-4033AB2A63BB">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 08:00:58 UTC</createdTime>
+<ownerDesignName>UU</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<sourcePk>80D483B9-E5CF-73B5-164A-28D0CB06F788</sourcePk>
+<targetPk>CEC8D28D-2DE3-376D-ABE2-04872F433F6E</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>95DF27C8-5756-12CA-CEE2-9EE3F3C7D10D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5AB234DF-394A-46AE-CE6A-169953B56781</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

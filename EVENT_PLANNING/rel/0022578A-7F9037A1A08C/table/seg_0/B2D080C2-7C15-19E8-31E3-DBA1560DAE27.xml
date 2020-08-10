@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2D080C2-7C15-19E8-31E3-DBA1560DAE27" name="EVENT_EMPLOYEE">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:31:24 UTC</createdTime>
+<ownerDesignName>UU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EVENT_id" id="6FC267D9-84AE-FFE7-F113-DE33FF7E64DE">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:31:24 UTC</createdTime>
+<ownerDesignName>UU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C51A745C-7EAB-969F-E9CE-4AD3C1512FC8" referredColumn="ECAB3CAB-A956-F27F-413F-2C2EED06832E"/>
+</associations>
+</Column>
+<Column name="EMPLOYEE_id" id="9C5A6F3A-9DA3-1660-2CB1-C806ECF55B90">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:31:24 UTC</createdTime>
+<ownerDesignName>UU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A894223E-F6D7-8C26-B0DE-97BAE476B7BB" referredColumn="85C21C96-2A5A-CE12-4A37-B5C1AD1366E4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2FA05F1-A7C2-8F22-05C9-43A24AF86753" name="EVENT_EMPLOYEE_PK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:31:24 UTC</createdTime>
+<ownerDesignName>UU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FC267D9-84AE-FFE7-F113-DE33FF7E64DE"/>
+<colUsage columnID="9C5A6F3A-9DA3-1660-2CB1-C806ECF55B90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5846A6B1-4BD9-B9CD-6000-95B5CF1A33C5" name="EVENT_EMPLOYEE_EVENT_FK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:31:24 UTC</createdTime>
+<generatorID>51F21759-D4E9-3666-0847-4CA0B5031148</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FC267D9-84AE-FFE7-F113-DE33FF7E64DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BD160DF-FB48-041C-5286-825CB0450EB6" name="EVENT_EMPLOYEE_EMPLOYEE_FK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:31:24 UTC</createdTime>
+<generatorID>51F21759-D4E9-3666-0847-4CA0B5031148</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C5A6F3A-9DA3-1660-2CB1-C806ECF55B90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

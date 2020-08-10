@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="235C5500-ACA1-5FD8-2466-612C22BB97E4" containerWithKeyObject="25BFC34C-33B1-2CCC-B826-AB57F37874FF" localFKIndex="D9678113-28C4-0434-2893-9E4CE9F60C65" name="GENERIC_SERVICE_SERVICE_FK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 15:42:03 UTC</createdTime>
+<generatorID>FB51F7CF-EAE8-81BD-04CF-FD9AC35AC781</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<referredTableLongName>SERVICE</referredTableLongName>
+<arc>2D1753F4-06F8-A489-BDB6-176A253A6757</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E43DA677-E5FD-483F-26A4-D2E5BFD05BEC</referredTableID>
+<keyObject>763ABC2B-9671-B665-45DE-B96FEF0D5BD5</keyObject>
+<referredKeyID>763ABC2B-9671-B665-45DE-B96FEF0D5BD5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>service_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>gener</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

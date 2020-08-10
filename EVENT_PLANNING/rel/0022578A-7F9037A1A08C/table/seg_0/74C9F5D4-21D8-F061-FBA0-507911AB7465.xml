@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74C9F5D4-21D8-F061-FBA0-507911AB7465" name="EQUIPMENT">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>75C64ABA-15C6-02A7-769C-46E309F1E315</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="equipment_id" id="DADAA2CA-05DD-8748-8EC9-589CBEA135DD">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>79144F73-8FEF-8090-9548-B0831C1EE660</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EQUIPMENT_TYPE_id" id="B924F88C-C8F4-9F1B-E736-62DEF826E0EC">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>426487DC-5B40-DF59-06A3-06F04D5E5536</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8373902D-28F7-5232-FA65-2DB24538608C" referredColumn="1155C553-B285-DD4D-5F14-06D462C9C9A6"/>
+</associations>
+</Column>
+<Column name="equipment_name" id="573D06D7-5CC8-B1EA-8D2E-299EC0E7E923">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>787ED688-95CE-E0F5-876B-267427704B4D</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="equipment_price" id="71D4C4BC-37B0-2B6A-F816-A55FB4F60770">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>DCB4D692-924E-7F81-B06F-F48E57252B6E</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F60FB00A-5DEA-91AF-D10B-35292ED49F31" name="EQUIPMENT_PK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>4E3EC60F-C4A8-CF70-1CF0-A6FC101202B9</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DADAA2CA-05DD-8748-8EC9-589CBEA135DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84A53EDC-9B8F-07EE-D666-FE824264D02D" name="EQUIPMENT_EQUIPMENT_TYPE_FK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>754B2296-5639-A533-59E3-B7C2848070C2</generatorID>
+<ownerDesignName>EVENT_PLANNING</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B924F88C-C8F4-9F1B-E736-62DEF826E0EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

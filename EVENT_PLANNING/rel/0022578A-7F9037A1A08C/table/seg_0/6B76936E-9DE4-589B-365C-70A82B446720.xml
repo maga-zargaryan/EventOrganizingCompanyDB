@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6B76936E-9DE4-589B-365C-70A82B446720" name="EMPLOYEE_TRAINING">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<ownerDesignName>UU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRAINING_id" id="1B5ACBDE-D9C1-7B75-7342-25F063DE12C4">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<ownerDesignName>UU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36C17068-C3D6-1721-832B-AA96B6B5F785" referredColumn="DF0B8FA4-B5E5-3A80-29D1-C05DF830CA94"/>
+</associations>
+</Column>
+<Column name="EMPLOYEE_id" id="0439C239-DD6D-4522-A7D7-DD5F761E2276">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<ownerDesignName>UU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CD94267-9563-3988-CAEA-7F9CC79BE1CC" referredColumn="85C21C96-2A5A-CE12-4A37-B5C1AD1366E4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F504C3C-85CE-9D6B-74C6-75EFBE2E1AA5" name="EMPLOYEE_TRAINING_PK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<ownerDesignName>UU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B5ACBDE-D9C1-7B75-7342-25F063DE12C4"/>
+<colUsage columnID="0439C239-DD6D-4522-A7D7-DD5F761E2276"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BB420F3-A495-F1FD-D8B4-899153963CD1" name="EMPLOYEE_TRAINING_TRAINING_FK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>E5297E63-10E4-41BE-7C61-86DD110A7C8C</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B5ACBDE-D9C1-7B75-7342-25F063DE12C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A7836D2-5975-3C37-0284-8995186AA74C" name="EMPLOYEE_TRAINING_EMPLOYEE_FK">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 14:09:39 UTC</createdTime>
+<generatorID>E5297E63-10E4-41BE-7C61-86DD110A7C8C</generatorID>
+<ownerDesignName>UU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0439C239-DD6D-4522-A7D7-DD5F761E2276"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMPLOYEE_TRAINING" directorySegmentName="seg_0" id="E5297E63-10E4-41BE-7C61-86DD110A7C8C">
+<createdBy>User</createdBy>
+<createdTime>2019-11-30 07:36:26 UTC</createdTime>
+<ownerDesignName>UU</ownerDesignName>
+<engineerTo>
+<item key="0022578A-1261-C960-1207-7F9037A1A08C" value="true"/>
+</engineerTo>
+<sourcePk>1825E770-2C14-D9C4-E369-D87B3FBE21D3</sourcePk>
+<targetPk>5F0525EA-50EF-37C9-BF27-D347CC1EA5DE</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>23F32897-A721-DC05-0295-62F3E01CFCBF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>63ABD02C-49DD-BD8A-D2D4-BF54191443E3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
